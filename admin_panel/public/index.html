@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <!---==============Admin Css==================---->
+    <link href="<%= BASE_URL %>admin-assets/css/style.css" rel="stylesheet">
+    <!---==============Admin Css End==================---->
+
+
+
+    <script src="https://kit.fontawesome.com/2ea3577f09.js" crossorigin="anonymous"></script>
+
+
+
+
+</head>
+
+<body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="AdminApp"></div>
+    
+    <!---==============Admin Js==================---->
+    <script src="<%= BASE_URL %>admin-assets/js/global.min.js"></script>
+    <script src="<%= BASE_URL %>admin-assets/js/custom.min.js"></script>
+    <script src="<%= BASE_URL %>admin-assets/js/deznav-init.js"></script>
+    <!---==============Admin Js end==================---->
+</body>
+
+</html>

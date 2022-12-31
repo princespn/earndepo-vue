@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>
+        Earndepo
+    </title>
+    <link rel="stylesheet" href="<%= BASE_URL %>user-assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>user-assets/css/style2.css">
+    <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>user-assets/css/price_range_style.css"/>
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="<%= BASE_URL %>user-assets/js/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>user-assets/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="<%= BASE_URL %>user-assets/js/google_loader.js"></script> -->
+   
+
+</head>
+
+<body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="<%= BASE_URL %>user-assets/js/jquery-3.3.1.slim.min.js"></script>
+    <!-- Popper.JS -->
+    <script src="<%= BASE_URL %>user-assets/js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="<%= BASE_URL %>user-assets/js/bootstrap.min.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <script src="<%= BASE_URL %>user-assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="<%= BASE_URL %>user-assets/js/jquery.dataTables.min.js"></script>
+    <script src="<%= BASE_URL %>user-assets/js/dataTables.bootstrap4.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="<%= BASE_URL %>user-assets/js/price_range_script.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content, .top-navbar, .leftnav-cols').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#pullf').click(function(){
+                alert('hi');
+            })
+            //alert('hi');
+        });
+    </script>
+    <script>
+      $(document).ready(function() {
+        $('.report-table').DataTable();
+    } );
+   </script>
+   <script>
+       //$(document).ready(function(){
+          //$(".box-navs #mining").click(function(){
+            //alert('hi');
+             //$('.tab-content #home').addClass("active, show");
+             //$('.tab-content #page1').removeClass("active, show");
+             //$('.tab-content #page2').removeClass("active, show");
+             //$('.tab-content #page3').removeClass("active, show");
+             //$('.tab-content #page4').removeClass("active, show");
+          //})
+
+
+       //})
+   </script>
+</body>                                                                                                
+
+</html>

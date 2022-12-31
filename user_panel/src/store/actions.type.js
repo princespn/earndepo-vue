@@ -1,0 +1,45 @@
+export const LOGIN = 'login' 
+export const REGISTER='register'
+export const PURCHASEFUND = 'purchase-fund'
+export const GETINVOICEDETAILS = 'get-fund-invoice'
+export const CHECKUSEREXIST = 'checkuserexist' 
+export const CHECKEMAILEXIST = 'checkemailexist' 
+export const CHECKDOWNLINE = 'check-downline' 
+export const SELFTOPUP = 'self-topup' 
+export const GETDASHBOARDDETAILS = 'get-user-dashboard' 
+export const GETTOPUPBALANCE = 'get-topup-balance' 
+export const GETALLCURRENCY = 'getall-currency' 
+export const GET_PROJECT_SETTING ='getprojectsettings' 
+export const ADMIN_PRODUCTBASE ='getlevelviewtree/productbase'
+export const CHECKUSEREXISTED='checkuserexist'
+export const SENDOTP='sendOtp-update-user-profile'
+export const CASHTOCASH='transfer-topup-to-topup'
+export const REG_OTP='sendRegEmailOtp'
+export const REG_OTP_VERIFY='verfiy-Reg-EmailOtp'
+export const COUNTRY='country'
+export const GET_USERID='get-user-id'
+export const FORGOT_PASSWORD='reset-passwordlink'
+export const FORGOT_PASSWORD_OTP='sendOtp-update-user-profile1'
+export const FORGOT_PASSWORD_OTP_CHECK='checkotp2'
+export const RESET_PASSWORD='reset-password'
+export const CHANGPASSWORD='change-password'
+export const GETTOPUPDATA='gettopupdata'
+export const GETPROFILEINFO='get-profile-info'
+export const GETPROFILEUPDATEINFO='get-profile-update-info'
+export const CRYPTOCURRENCYVALIDATION='cryptoCurrency/validation'
+export const UPDATEUSER='update-user'
+export const UPDATEUSERPARENTID='update-user-parent_id'
+export const ADD_TRANSFER_REQUEST='add-transfer-request'
+// Rahul
+export const GETPACKAGES = 'get-packages-front'
+export const GETCOINIMG='getcoinimage'
+export const GETPACKMAXMIN='getpackminmax'
+export const GETAMTDEPOSIT='purchase-package'
+export const GETINVTRANSAC='create_pm_transaction'
+
+
+
+
+
+
+

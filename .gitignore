@@ -1,0 +1,31 @@
+.DS_Store
+/admin_panel/node_modules
+/admin_panel/dist
+/admin_panel/vue.config.js
+
+/user_panel/node_modules
+/user_panel/dist
+/user_panel/vue.config.js
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+/admin_panel/npm-debug.log*
+/admin_panel/yarn-debug.log*
+/admin_panel/yarn-error.log*
+/admin_panel/pnpm-debug.log*
+
+/user_panel/npm-debug.log*
+/user_panel/yarn-debug.log*
+/user_panel/yarn-error.log*
+/user_panel/pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
